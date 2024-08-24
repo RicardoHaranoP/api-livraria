@@ -12,3 +12,5 @@ routes.post("/livros", LivroController.postLivro)
 routes.put("/livros/:id", LivroController.putLivro)
 
 routes.delete("/livros/:id", LivroController.deleteLivro)
+
+export default routes
